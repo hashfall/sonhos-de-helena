@@ -1,0 +1,133 @@
+{
+  "events":[
+    {
+      "id":1,
+      "name":"Event00001",
+      "x":8.5,
+      "y":19.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"GetChoice",
+              "question":[
+                "Você deseja abrir a porta?"
+              ],
+              "choices":[
+                "Sim",
+                "Não"
+              ],
+              "allowCancel":false,
+              "innerCmds":[
+                [
+                  
+                ],
+                [
+                  
+                ]
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":2,
+      "name":"Event00002",
+      "x":13.5,
+      "y":19.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"GetChoice",
+              "question":[
+                "Beeep!"
+              ],
+              "choices":[
+                "$1 ~> Entrada",
+                "$2 ~> Entrada",
+                "$3 ~> Entrada",
+                "$4 ~> Entrada"
+              ],
+              "allowCancel":true,
+              "innerCmds":[
+                [
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Diário nº 4567: O ar no laboratório está ficando insuportável."
+                    ],
+                    "useCharacterFace":false,
+                    "characterId":0
+                  }
+                ],
+                [
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Diário nº 4573: Preciso comprar algo para melhorar o ar neste ambiente pequeno... Está na hora de sair e fazer algumas compras."
+                    ],
+                    "useCharacterFace":false,
+                    "characterId":0
+                  }
+                ],
+                [
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Diário nº 4579: Um pouco de verde até que combinou com o ambiente."
+                    ],
+                    "useCharacterFace":false,
+                    "characterId":0
+                  }
+                ],
+                [
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Diário nº 4598: O experimento morreu sufocado novamente... será que..."
+                    ],
+                    "useCharacterFace":false,
+                    "characterId":0
+                  }
+                ],
+                [
+                  
+                ]
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    }
+  ]
+}
