@@ -1,8 +1,8 @@
 {
   "parent":"",
-  "title":"Quarto",
+  "title":"Parque",
   "xSize":40,
-  "ySize":30,
+  "ySize":40,
   "tilesets":[
     "sys/Refmap-TileA5.png",
     "sys/Refmap-TileB.png",
@@ -140,21 +140,16 @@
     "sys/Refmap-A4-5-6.png",
     "sys/Refmap-A4-5-7.png"
   ],
-  "interior":true,
-  "music":{
-    "sound":"bedroom.mp3",
-    "volume":1.0,
-    "pitch":1.0
-  },
-  "battleBackground":"sys/Xin/Strangedesert.jpg",
+  "interior":false,
+  "battleBackground":"sys/Etolier/01sougen.jpg",
   "battleMusic":{
     "sound":"sys/sean_m_stephens/Battle1.mid",
     "volume":1.0,
     "pitch":1.0
   },
-  "editorCenterX":19.984375,
-  "editorCenterY":14.984375,
-  "lastGeneratedEventId":26,
+  "editorCenterX":16.671875,
+  "editorCenterY":10.328125,
+  "lastGeneratedEventId":0,
   "randomEncounterSettings":{
     "stepsAverage":20,
     "encounters":[

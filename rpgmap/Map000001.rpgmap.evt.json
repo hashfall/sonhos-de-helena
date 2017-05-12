@@ -198,62 +198,6 @@
       ]
     },
     {
-      "id":1,
-      "name":"change_room",
-      "x":23.5,
-      "y":9.5,
-      "states":[
-        {
-          "conditions":[
-            
-          ],
-          "height":1,
-          "affixDirection":false,
-          "trigger":2,
-          "animationType":0,
-          "runOnceThenIncrementState":false,
-          "cmds":[
-            {
-              "jsonClass":"GetChoice",
-              "question":[
-                "Deseja dormir?"
-              ],
-              "choices":[
-                "Sim",
-                "Não"
-              ],
-              "allowCancel":false,
-              "innerCmds":[
-                [
-                  {
-                    "jsonClass":"Teleport",
-                    "loc":{
-                      "map":"Map000002.rpgmap",
-                      "x":1.5,
-                      "y":8.5
-                    },
-                    "transitionId":1
-                  }
-                ],
-                [
-                  
-                ],
-                [
-                  
-                ]
-              ],
-              "useCharacterFace":false,
-              "characterId":0
-            }
-          ]
-        }
-      ],
-      "eventClassId":-1,
-      "params":[
-        
-      ]
-    },
-    {
       "id":6,
       "name":"Event00006",
       "x":20.5,
@@ -669,6 +613,149 @@
                 "Essa neblina não me deixa ver nada."
               ],
               "useCharacterFace":true,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":26,
+      "name":"Event00026",
+      "x":23.5,
+      "y":9.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":2,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"GetChoice",
+              "question":[
+                "Deseja dormir?"
+              ],
+              "choices":[
+                "Sim",
+                "Não"
+              ],
+              "allowCancel":false,
+              "innerCmds":[
+                [
+                  {
+                    "jsonClass":"IfCondition",
+                    "conditions":[
+                      {
+                        "conditionTypeId":1,
+                        "intValue1":{
+                          "jsonClass":"IntParameter",
+                          "constant":0,
+                          "valueTypeId":2,
+                          "localVariable":"",
+                          "globalVariable":"lab_concluido"
+                        },
+                        "intValue2":{
+                          "jsonClass":"IntParameter",
+                          "constant":1,
+                          "valueTypeId":0,
+                          "localVariable":"",
+                          "globalVariable":""
+                        },
+                        "operatorId":0,
+                        "negate":false
+                      },
+                      {
+                        "conditionTypeId":1,
+                        "intValue1":{
+                          "jsonClass":"IntParameter",
+                          "constant":0,
+                          "valueTypeId":2,
+                          "localVariable":"",
+                          "globalVariable":"parque_concluidp"
+                        },
+                        "intValue2":{
+                          "jsonClass":"IntParameter",
+                          "constant":1,
+                          "valueTypeId":0,
+                          "localVariable":"",
+                          "globalVariable":""
+                        },
+                        "operatorId":0,
+                        "negate":false
+                      }
+                    ],
+                    "elseBranch":true,
+                    "trueCmds":[
+                      
+                    ],
+                    "elseCmds":[
+                      {
+                        "jsonClass":"IfCondition",
+                        "conditions":[
+                          {
+                            "conditionTypeId":1,
+                            "intValue1":{
+                              "jsonClass":"IntParameter",
+                              "constant":0,
+                              "valueTypeId":2,
+                              "localVariable":"",
+                              "globalVariable":"lab_concluido"
+                            },
+                            "intValue2":{
+                              "jsonClass":"IntParameter",
+                              "constant":1,
+                              "valueTypeId":0,
+                              "localVariable":"",
+                              "globalVariable":""
+                            },
+                            "operatorId":0,
+                            "negate":false
+                          }
+                        ],
+                        "elseBranch":true,
+                        "trueCmds":[
+                          {
+                            "jsonClass":"Teleport",
+                            "loc":{
+                              "map":"Map000005.rpgmap",
+                              "x":13.5,
+                              "y":9.5
+                            },
+                            "transitionId":1
+                          }
+                        ],
+                        "elseCmds":[
+                          {
+                            "jsonClass":"Teleport",
+                            "loc":{
+                              "map":"Map000003.rpgmap",
+                              "x":6.5,
+                              "y":25.5
+                            },
+                            "transitionId":1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                [
+                  
+                ],
+                [
+                  
+                ]
+              ],
+              "useCharacterFace":false,
               "characterId":0
             }
           ]

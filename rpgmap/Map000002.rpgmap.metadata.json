@@ -1,6 +1,6 @@
 {
   "parent":"",
-  "title":"Corredor",
+  "title":"Corredor Lab",
   "xSize":60,
   "ySize":20,
   "tilesets":[
@@ -144,7 +144,7 @@
     "volume":1.0,
     "pitch":1.0
   },
-  "editorCenterX":29.984375,
+  "editorCenterX":16.671875,
   "editorCenterY":10.0,
   "lastGeneratedEventId":23,
   "randomEncounterSettings":{

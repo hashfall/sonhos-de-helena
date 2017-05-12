@@ -1,14 +1,15 @@
 {
   "parent":"",
-  "title":"Quarto",
-  "xSize":40,
-  "ySize":30,
+  "title":"Laboratório Concluído",
+  "xSize":50,
+  "ySize":50,
   "tilesets":[
-    "sys/Refmap-TileA5.png",
-    "sys/Refmap-TileB.png",
-    "sys/Refmap-TileC.png",
-    "sys/Refmap-TileD.png",
-    "sys/Refmap-TileE.png"
+    "G0.png",
+    "L0.png",
+    "L1.png",
+    "L2.png",
+    "C0.png",
+    "L3.png"
   ],
   "autotiles":[
     "sys/Refmap-A1-0-0-A.png",
@@ -141,20 +142,15 @@
     "sys/Refmap-A4-5-7.png"
   ],
   "interior":true,
-  "music":{
-    "sound":"bedroom.mp3",
-    "volume":1.0,
-    "pitch":1.0
-  },
-  "battleBackground":"sys/Xin/Strangedesert.jpg",
+  "battleBackground":"sys/Etolier/01sougen.jpg",
   "battleMusic":{
     "sound":"sys/sean_m_stephens/Battle1.mid",
     "volume":1.0,
     "pitch":1.0
   },
-  "editorCenterX":19.984375,
-  "editorCenterY":14.984375,
-  "lastGeneratedEventId":26,
+  "editorCenterX":25.734375,
+  "editorCenterY":13.328125,
+  "lastGeneratedEventId":24,
   "randomEncounterSettings":{
     "stepsAverage":20,
     "encounters":[

@@ -688,7 +688,7 @@
             {
               "jsonClass":"ShowText",
               "lines":[
-                "O livro está em branco..."
+                "O livro está em branco."
               ],
               "useCharacterFace":true,
               "characterId":0

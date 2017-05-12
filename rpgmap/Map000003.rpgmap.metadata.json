@@ -8,7 +8,9 @@
     "L0.png",
     "L1.png",
     "L2.png",
-    "C0.png"
+    "C0.png",
+    "L3.png",
+    "monster_bael_fangs.png"
   ],
   "autotiles":[
     "sys/Refmap-A1-0-0-A.png",
@@ -148,8 +150,8 @@
     "pitch":1.0
   },
   "editorCenterX":16.671875,
-  "editorCenterY":20.078125,
-  "lastGeneratedEventId":2,
+  "editorCenterY":22.140625,
+  "lastGeneratedEventId":20,
   "randomEncounterSettings":{
     "stepsAverage":20,
     "encounters":[
