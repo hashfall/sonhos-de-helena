@@ -1,6 +1,102 @@
 {
   "events":[
     {
+      "id":24,
+      "name":"Event00024",
+      "x":10.5,
+      "y":25.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Que nojo!"
+              ],
+              "useCharacterFace":true,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":37,
+      "name":"Event00033",
+      "x":16.5,
+      "y":21.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Vazio."
+              ],
+              "useCharacterFace":true,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":25,
+      "name":"Event00024",
+      "x":10.5,
+      "y":24.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Que nojo!"
+              ],
+              "useCharacterFace":true,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
       "id":14,
       "name":"Event00014",
       "x":6.5,
@@ -129,6 +225,38 @@
       ]
     },
     {
+      "id":29,
+      "name":"Event00029",
+      "x":18.5,
+      "y":27.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Alguém estava estudando sobre fotossíntese."
+              ],
+              "useCharacterFace":true,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
       "id":1,
       "name":"Event00001",
       "x":8.5,
@@ -210,6 +338,54 @@
                         ],
                         "useCharacterFace":false,
                         "characterId":0
+                      },
+                      {
+                        "jsonClass":"ShakeScreen",
+                        "xAmplitude":{
+                          "jsonClass":"FloatParameter",
+                          "constant":20.0,
+                          "valueTypeId":0,
+                          "localVariable":""
+                        },
+                        "yAmplitude":{
+                          "jsonClass":"FloatParameter",
+                          "constant":0.0,
+                          "valueTypeId":0,
+                          "localVariable":""
+                        },
+                        "frequency":{
+                          "jsonClass":"FloatParameter",
+                          "constant":2.0,
+                          "valueTypeId":0,
+                          "localVariable":""
+                        },
+                        "duration":{
+                          "jsonClass":"FloatParameter",
+                          "constant":2.0,
+                          "valueTypeId":0,
+                          "localVariable":""
+                        }
+                      },
+                      {
+                        "jsonClass":"TintScreen",
+                        "r":1.0,
+                        "g":0.0,
+                        "b":0.0,
+                        "a":0.5,
+                        "fadeDuration":1.0
+                      },
+                      {
+                        "jsonClass":"Sleep",
+                        "duration":2.0
+                      },
+                      {
+                        "jsonClass":"Teleport",
+                        "loc":{
+                          "map":"Map000003.rpgmap",
+                          "x":6.5,
+                          "y":24.5
+                        },
+                        "transitionId":1
                       }
                     ]
                   }
@@ -222,6 +398,134 @@
                 ]
               ],
               "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":28,
+      "name":"Event00028",
+      "x":18.5,
+      "y":26.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Escuto um barulho de água."
+              ],
+              "useCharacterFace":true,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":38,
+      "name":"Event00027",
+      "x":17.5,
+      "y":20.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Está gelado."
+              ],
+              "useCharacterFace":true,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":21,
+      "name":"Event00021",
+      "x":2.5,
+      "y":20.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "O que estavam fazendo com o senhor ratinho?"
+              ],
+              "useCharacterFace":true,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":33,
+      "name":"Event00033",
+      "x":15.5,
+      "y":22.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Vazio."
+              ],
+              "useCharacterFace":true,
               "characterId":0
             }
           ]
@@ -288,7 +592,7 @@
                 {
                   "jsonClass":"ShowText",
                   "lines":[
-                    "Você retirou uma planta do inventário e inseriu na capsula."
+                    "Você retirou uma planta da mochila e inseriu na capsula."
                   ],
                   "useCharacterFace":false,
                   "characterId":0
@@ -461,6 +765,70 @@
       ]
     },
     {
+      "id":32,
+      "name":"Event00030",
+      "x":16.5,
+      "y":23.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Me pergunto para que serviria isso..."
+              ],
+              "useCharacterFace":true,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":34,
+      "name":"Event00033",
+      "x":14.5,
+      "y":22.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Vazio."
+              ],
+              "useCharacterFace":true,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
       "id":17,
       "name":"Event00016",
       "x":4.5,
@@ -470,7 +838,7 @@
           "conditions":[
             
           ],
-          "height":1,
+          "height":0,
           "affixDirection":false,
           "trigger":1,
           "animationType":0,
@@ -519,10 +887,10 @@
       ]
     },
     {
-      "id":7,
+      "id":22,
       "name":"Event00007",
-      "x":15.5,
-      "y":23.5,
+      "x":18.5,
+      "y":25.5,
       "states":[
         {
           "conditions":[
@@ -555,9 +923,41 @@
             {
               "jsonClass":"ShowText",
               "lines":[
-                "Você adicionou uma planta ao inventário."
+                "Você colocou uma planta na mochila."
               ],
               "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":27,
+      "name":"Event00027",
+      "x":2.5,
+      "y":26.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Está gelado."
+              ],
+              "useCharacterFace":true,
               "characterId":0
             }
           ]
@@ -596,6 +996,38 @@
               "jsonClass":"ShowText",
               "lines":[
                 "O que será isso?"
+              ],
+              "useCharacterFace":true,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":35,
+      "name":"Event00033",
+      "x":14.5,
+      "y":21.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Eca! Tem um ratinho morto nesse."
               ],
               "useCharacterFace":true,
               "characterId":0
@@ -714,6 +1146,38 @@
                 ]
               ],
               "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":31,
+      "name":"Event00030",
+      "x":17.5,
+      "y":24.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Me pergunto para que serviria isso..."
+              ],
+              "useCharacterFace":true,
               "characterId":0
             }
           ]
@@ -859,6 +1323,134 @@
                   ]
                 }
               ]
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":26,
+      "name":"Event00026",
+      "x":9.5,
+      "y":24.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Não gosto de lavar as mãos."
+              ],
+              "useCharacterFace":true,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":23,
+      "name":"Event00023",
+      "x":8.5,
+      "y":24.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "O que aconteceu aqui?"
+              ],
+              "useCharacterFace":true,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":36,
+      "name":"Event00033",
+      "x":15.5,
+      "y":21.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Vazio."
+              ],
+              "useCharacterFace":true,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":30,
+      "name":"Event00030",
+      "x":16.5,
+      "y":24.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Me pergunto para que serviria isso..."
+              ],
+              "useCharacterFace":true,
+              "characterId":0
             }
           ]
         }

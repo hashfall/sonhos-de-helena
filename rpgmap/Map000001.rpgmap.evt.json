@@ -198,6 +198,38 @@
       ]
     },
     {
+      "id":29,
+      "name":"Event00027",
+      "x":25.5,
+      "y":16.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Não sei qual sapato usar..."
+              ],
+              "useCharacterFace":true,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
       "id":6,
       "name":"Event00006",
       "x":20.5,
@@ -217,6 +249,38 @@
               "jsonClass":"ShowText",
               "lines":[
                 "Sempre me esqueço de molhar as plantas."
+              ],
+              "useCharacterFace":true,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":28,
+      "name":"Event00027",
+      "x":25.5,
+      "y":15.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Não sei qual sapato usar..."
               ],
               "useCharacterFace":true,
               "characterId":0
@@ -420,6 +484,38 @@
                 "faceX":1,
                 "faceY":0
               },
+              "useCharacterFace":true,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":27,
+      "name":"Event00027",
+      "x":25.5,
+      "y":14.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Não sei qual sapato usar..."
+              ],
               "useCharacterFace":true,
               "characterId":0
             }
@@ -823,6 +919,38 @@
               "jsonClass":"ShowText",
               "lines":[
                 "Sempre me esqueço de molhar as plantas."
+              ],
+              "useCharacterFace":true,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":30,
+      "name":"Event00003",
+      "x":22.5,
+      "y":8.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Nunca vou ler todos..."
               ],
               "useCharacterFace":true,
               "characterId":0

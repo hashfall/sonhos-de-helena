@@ -1,6 +1,234 @@
 {
   "events":[
     {
+      "id":24,
+      "name":"Event00022",
+      "x":31.5,
+      "y":5.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"GetChoice",
+              "question":[
+                "Está na hora de acordar?"
+              ],
+              "choices":[
+                "Sim",
+                "Não"
+              ],
+              "allowCancel":false,
+              "innerCmds":[
+                [
+                  {
+                    "jsonClass":"SetGlobalInt",
+                    "key":"lab_concluido",
+                    "operatorId":0,
+                    "value1":{
+                      "jsonClass":"IntParameter",
+                      "constant":1,
+                      "valueTypeId":0,
+                      "localVariable":"",
+                      "globalVariable":""
+                    }
+                  },
+                  {
+                    "jsonClass":"Teleport",
+                    "loc":{
+                      "map":"Map000001.rpgmap",
+                      "x":18.5,
+                      "y":15.5
+                    },
+                    "transitionId":1
+                  }
+                ],
+                [
+                  
+                ],
+                [
+                  
+                ]
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":37,
+      "name":"Event00027",
+      "x":29.5,
+      "y":8.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Está gelado."
+              ],
+              "useCharacterFace":true,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":25,
+      "name":"Event00025",
+      "x":8.5,
+      "y":8.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Minha escola tem um igual!"
+              ],
+              "useCharacterFace":true,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":29,
+      "name":"Event00029",
+      "x":28.5,
+      "y":10.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Semana passada joguei meu dever fora... odeio estudar."
+              ],
+              "useCharacterFace":true,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":28,
+      "name":"Event00027",
+      "x":17.5,
+      "y":8.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Onde o papai estava tinha um desse..."
+              ],
+              "useCharacterFace":true,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":38,
+      "name":"Event00038",
+      "x":25.5,
+      "y":8.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Que porta estranha!"
+              ],
+              "useCharacterFace":true,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
       "id":21,
       "name":"Event00021",
       "x":6.5,
@@ -16,6 +244,41 @@
             "dir":0,
             "step":0
           },
+          "height":2,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":1,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Muito bem helena. Obrigada por ajudar o ratinho, ele iria sufocar naquela capsula se não tivesse algo para converter o gás carbônico em oxigênio."
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"CallSaveMenu"
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":33,
+      "name":"Event00032",
+      "x":28.5,
+      "y":5.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
           "height":1,
           "affixDirection":false,
           "trigger":1,
@@ -25,13 +288,74 @@
             {
               "jsonClass":"ShowText",
               "lines":[
-                "Muito bem helena."
+                "Parece com os livros do papai!"
               ],
-              "useCharacterFace":false,
+              "useCharacterFace":true,
               "characterId":0
-            },
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":32,
+      "name":"Event00032",
+      "x":27.5,
+      "y":5.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
             {
-              "jsonClass":"CallSaveMenu"
+              "jsonClass":"ShowText",
+              "lines":[
+                "Parece com os livros do papai!"
+              ],
+              "useCharacterFace":true,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":34,
+      "name":"Event00034",
+      "x":30.5,
+      "y":4.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Será que o ratinho morava aqui?"
+              ],
+              "useCharacterFace":true,
+              "characterId":0
             }
           ]
         }
@@ -110,9 +434,41 @@
       ]
     },
     {
-      "id":24,
-      "name":"Event00022",
-      "x":31.5,
+      "id":27,
+      "name":"Event00027",
+      "x":18.5,
+      "y":8.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Onde o papai estava tinha um desse..."
+              ],
+              "useCharacterFace":true,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":35,
+      "name":"Event00035",
+      "x":32.5,
       "y":5.5,
       "states":[
         {
@@ -126,47 +482,139 @@
           "runOnceThenIncrementState":false,
           "cmds":[
             {
-              "jsonClass":"GetChoice",
-              "question":[
-                "Está na hora de acordar?"
+              "jsonClass":"ShowText",
+              "lines":[
+                "A planta está morrendo... alguém esqueceu de molhar."
               ],
-              "choices":[
-                "Sim",
-                "Não"
+              "useCharacterFace":true,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":31,
+      "name":"Event00031",
+      "x":26.5,
+      "y":6.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "A mamãe não me deixa brincar com isso."
               ],
-              "allowCancel":false,
-              "innerCmds":[
-                [
-                  {
-                    "jsonClass":"SetGlobalInt",
-                    "key":"lab_concluido",
-                    "operatorId":0,
-                    "value1":{
-                      "jsonClass":"IntParameter",
-                      "constant":1,
-                      "valueTypeId":0,
-                      "localVariable":"",
-                      "globalVariable":""
-                    }
-                  },
-                  {
-                    "jsonClass":"Teleport",
-                    "loc":{
-                      "map":"Map000001.rpgmap",
-                      "x":18.5,
-                      "y":15.5
-                    },
-                    "transitionId":1
-                  }
-                ],
-                [
-                  
-                ],
-                [
-                  
-                ]
+              "useCharacterFace":true,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":26,
+      "name":"Event00027",
+      "x":11.5,
+      "y":9.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Está gelado."
               ],
-              "useCharacterFace":false,
+              "useCharacterFace":true,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":36,
+      "name":"Event00027",
+      "x":32.5,
+      "y":9.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Está gelado."
+              ],
+              "useCharacterFace":true,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":30,
+      "name":"Event00029",
+      "x":27.5,
+      "y":10.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Semana passada joguei meu dever fora... odeio estudar."
+              ],
+              "useCharacterFace":true,
               "characterId":0
             }
           ]

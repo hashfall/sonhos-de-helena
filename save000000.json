@@ -44,8 +44,8 @@
   "mapLocMap":{
     "playerLoc":{
       "map":"Map000004.rpgmap",
-      "x":7.2548647,
-      "y":14.833183
+      "x":7.5,
+      "y":17.36965
     }
   },
   "eventStates":[
