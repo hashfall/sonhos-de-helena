@@ -833,9 +833,9 @@
                           {
                             "jsonClass":"Teleport",
                             "loc":{
-                              "map":"Map000003.rpgmap",
-                              "x":6.5,
-                              "y":25.5
+                              "map":"Map000002.rpgmap",
+                              "x":1.5,
+                              "y":8.5
                             },
                             "transitionId":1
                           }
