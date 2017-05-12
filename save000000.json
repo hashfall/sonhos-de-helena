@@ -1,11 +1,9 @@
 {
   "intMap":{
-    "planta_usada":1,
-    "interior":1,
     "menuEnabled":1,
-    "porta_lab_aberta":1,
+    "useTransition":-1,
     "eventsEnabled":1,
-    "useTransition":-1
+    "interior":0
   },
   "stringMap":{
     
@@ -17,9 +15,6 @@
     "characterHps":[
       50
     ],
-    "inventoryQtys":[
-      
-    ],
     "characterRow":[
       0
     ],
@@ -28,9 +23,6 @@
     ],
     "characterMps":[
       20
-    ],
-    "inventoryIdxs":[
-      
     ],
     "characterExps":[
       0
@@ -43,12 +35,16 @@
   },
   "mapLocMap":{
     "playerLoc":{
-      "map":"Map000004.rpgmap",
-      "x":7.5,
-      "y":16.894567
+      "map":"Map000003.rpgmap",
+      "x":4.6302567,
+      "y":24.584574
     }
   },
   "eventStates":[
-    
+    {
+      "mapName":"Map000001.rpgmap",
+      "eventId":31,
+      "eventState":1
+    }
   ]
 }

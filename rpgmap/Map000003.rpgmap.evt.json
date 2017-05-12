@@ -900,7 +900,7 @@
           "affixDirection":false,
           "trigger":1,
           "animationType":0,
-          "runOnceThenIncrementState":false,
+          "runOnceThenIncrementState":true,
           "cmds":[
             {
               "jsonClass":"AddRemoveItem",
@@ -928,6 +928,19 @@
               "useCharacterFace":false,
               "characterId":0
             }
+          ]
+        },
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            
           ]
         }
       ],
@@ -1244,7 +1257,7 @@
                 {
                   "jsonClass":"ShowText",
                   "lines":[
-                    "Você retirou uma planta do inventário e inseriu na capsula."
+                    "Você retirou uma planta da mochila e inseriu na capsula."
                   ],
                   "useCharacterFace":false,
                   "characterId":0

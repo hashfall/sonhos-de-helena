@@ -1,6 +1,6 @@
 {
   "parent":"",
-  "title":"Laboratório Concluído",
+  "title":"Laboratório Conc.",
   "xSize":50,
   "ySize":50,
   "tilesets":[
@@ -148,7 +148,7 @@
     "volume":1.0,
     "pitch":1.0
   },
-  "editorCenterX":25.0,
+  "editorCenterX":24.984375,
   "editorCenterY":15.953125,
   "lastGeneratedEventId":38,
   "randomEncounterSettings":{

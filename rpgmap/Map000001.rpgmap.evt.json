@@ -10,7 +10,7 @@
           "conditions":[
             
           ],
-          "height":1,
+          "height":0,
           "affixDirection":false,
           "trigger":1,
           "animationType":0,
@@ -42,7 +42,7 @@
           "conditions":[
             
           ],
-          "height":1,
+          "height":0,
           "affixDirection":false,
           "trigger":1,
           "animationType":0,
@@ -65,43 +65,6 @@
       ]
     },
     {
-      "id":24,
-      "name":"Event00002",
-      "x":19.5,
-      "y":12.5,
-      "states":[
-        {
-          "conditions":[
-            
-          ],
-          "height":1,
-          "affixDirection":false,
-          "trigger":1,
-          "animationType":0,
-          "runOnceThenIncrementState":false,
-          "cmds":[
-            {
-              "jsonClass":"ShowText",
-              "lines":[
-                "A mamãe não me deixa brincar com meus amigos antes de terminar as aulas de musica."
-              ],
-              "customFace":{
-                "faceset":"sys/mackie/face_m01a_1.png",
-                "faceX":1,
-                "faceY":0
-              },
-              "useCharacterFace":true,
-              "characterId":0
-            }
-          ]
-        }
-      ],
-      "eventClassId":-1,
-      "params":[
-        
-      ]
-    },
-    {
       "id":25,
       "name":"Event00025",
       "x":25.5,
@@ -111,7 +74,7 @@
           "conditions":[
             
           ],
-          "height":1,
+          "height":0,
           "affixDirection":false,
           "trigger":1,
           "animationType":0,
@@ -143,7 +106,7 @@
           "conditions":[
             
           ],
-          "height":1,
+          "height":0,
           "affixDirection":false,
           "trigger":1,
           "animationType":0,
@@ -175,7 +138,7 @@
           "conditions":[
             
           ],
-          "height":1,
+          "height":0,
           "affixDirection":false,
           "trigger":1,
           "animationType":0,
@@ -207,7 +170,7 @@
           "conditions":[
             
           ],
-          "height":1,
+          "height":0,
           "affixDirection":false,
           "trigger":1,
           "animationType":0,
@@ -230,38 +193,6 @@
       ]
     },
     {
-      "id":6,
-      "name":"Event00006",
-      "x":20.5,
-      "y":11.5,
-      "states":[
-        {
-          "conditions":[
-            
-          ],
-          "height":1,
-          "affixDirection":false,
-          "trigger":1,
-          "animationType":0,
-          "runOnceThenIncrementState":false,
-          "cmds":[
-            {
-              "jsonClass":"ShowText",
-              "lines":[
-                "Sempre me esqueço de molhar as plantas."
-              ],
-              "useCharacterFace":true,
-              "characterId":0
-            }
-          ]
-        }
-      ],
-      "eventClassId":-1,
-      "params":[
-        
-      ]
-    },
-    {
       "id":28,
       "name":"Event00027",
       "x":25.5,
@@ -271,7 +202,7 @@
           "conditions":[
             
           ],
-          "height":1,
+          "height":0,
           "affixDirection":false,
           "trigger":1,
           "animationType":0,
@@ -303,7 +234,7 @@
           "conditions":[
             
           ],
-          "height":1,
+          "height":0,
           "affixDirection":false,
           "trigger":1,
           "animationType":0,
@@ -326,6 +257,43 @@
       ]
     },
     {
+      "id":33,
+      "name":"Event00002",
+      "x":18.5,
+      "y":11.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "A mamãe não me deixa brincar com meus amigos antes de terminar as aulas de musica."
+              ],
+              "customFace":{
+                "faceset":"sys/mackie/face_m01a_1.png",
+                "faceX":1,
+                "faceY":0
+              },
+              "useCharacterFace":true,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
       "id":9,
       "name":"Event00009",
       "x":18.5,
@@ -335,7 +303,7 @@
           "conditions":[
             
           ],
-          "height":1,
+          "height":0,
           "affixDirection":false,
           "trigger":1,
           "animationType":0,
@@ -367,7 +335,7 @@
           "conditions":[
             
           ],
-          "height":1,
+          "height":0,
           "affixDirection":false,
           "trigger":1,
           "animationType":0,
@@ -399,7 +367,81 @@
           "conditions":[
             
           ],
-          "height":1,
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "A mamãe não me deixa brincar com meus amigos antes de terminar as aulas de musica."
+              ],
+              "customFace":{
+                "faceset":"sys/mackie/face_m01a_1.png",
+                "faceX":1,
+                "faceY":0
+              },
+              "useCharacterFace":true,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":32,
+      "name":"Event00002",
+      "x":19.5,
+      "y":12.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "A mamãe não me deixa brincar com meus amigos antes de terminar as aulas de musica."
+              ],
+              "customFace":{
+                "faceset":"sys/mackie/face_m01a_1.png",
+                "faceX":1,
+                "faceY":0
+              },
+              "useCharacterFace":true,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":34,
+      "name":"Event00002",
+      "x":17.5,
+      "y":12.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
           "affixDirection":false,
           "trigger":1,
           "animationType":0,
@@ -436,7 +478,7 @@
           "conditions":[
             
           ],
-          "height":1,
+          "height":0,
           "affixDirection":false,
           "trigger":1,
           "animationType":0,
@@ -459,43 +501,6 @@
       ]
     },
     {
-      "id":22,
-      "name":"Event00002",
-      "x":18.5,
-      "y":11.5,
-      "states":[
-        {
-          "conditions":[
-            
-          ],
-          "height":1,
-          "affixDirection":false,
-          "trigger":1,
-          "animationType":0,
-          "runOnceThenIncrementState":false,
-          "cmds":[
-            {
-              "jsonClass":"ShowText",
-              "lines":[
-                "A mamãe não me deixa brincar com meus amigos antes de terminar as aulas de musica."
-              ],
-              "customFace":{
-                "faceset":"sys/mackie/face_m01a_1.png",
-                "faceX":1,
-                "faceY":0
-              },
-              "useCharacterFace":true,
-              "characterId":0
-            }
-          ]
-        }
-      ],
-      "eventClassId":-1,
-      "params":[
-        
-      ]
-    },
-    {
       "id":27,
       "name":"Event00027",
       "x":25.5,
@@ -505,7 +510,7 @@
           "conditions":[
             
           ],
-          "height":1,
+          "height":0,
           "affixDirection":false,
           "trigger":1,
           "animationType":0,
@@ -537,7 +542,7 @@
           "conditions":[
             
           ],
-          "height":1,
+          "height":0,
           "affixDirection":false,
           "trigger":1,
           "animationType":0,
@@ -560,38 +565,6 @@
       ]
     },
     {
-      "id":7,
-      "name":"Event00007",
-      "x":24.5,
-      "y":8.5,
-      "states":[
-        {
-          "conditions":[
-            
-          ],
-          "height":1,
-          "affixDirection":false,
-          "trigger":1,
-          "animationType":0,
-          "runOnceThenIncrementState":false,
-          "cmds":[
-            {
-              "jsonClass":"ShowText",
-              "lines":[
-                "Sempre me esqueço de molhar as plantas."
-              ],
-              "useCharacterFace":false,
-              "characterId":0
-            }
-          ]
-        }
-      ],
-      "eventClassId":-1,
-      "params":[
-        
-      ]
-    },
-    {
       "id":3,
       "name":"Event00003",
       "x":14.5,
@@ -601,7 +574,7 @@
           "conditions":[
             
           ],
-          "height":1,
+          "height":0,
           "affixDirection":false,
           "trigger":1,
           "animationType":0,
@@ -624,6 +597,38 @@
       ]
     },
     {
+      "id":35,
+      "name":"Event00008",
+      "x":20.5,
+      "y":11.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Sempre me esqueço de molhar as plantas."
+              ],
+              "useCharacterFace":true,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
       "id":18,
       "name":"Event00018",
       "x":21.5,
@@ -633,7 +638,7 @@
           "conditions":[
             
           ],
-          "height":1,
+          "height":0,
           "affixDirection":false,
           "trigger":1,
           "animationType":0,
@@ -665,7 +670,7 @@
           "conditions":[
             
           ],
-          "height":1,
+          "height":0,
           "affixDirection":false,
           "trigger":1,
           "animationType":0,
@@ -688,6 +693,51 @@
       ]
     },
     {
+      "id":31,
+      "name":"Event00031",
+      "x":29.5,
+      "y":12.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":5,
+          "animationType":0,
+          "runOnceThenIncrementState":true,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Para se movimentar utilize as SETAS DIRECIONAIS do Teclado e utilize a BARRA DE ESPAÇO para interagir com o ambiente."
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        },
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
       "id":11,
       "name":"Event00011",
       "x":20.5,
@@ -697,7 +747,7 @@
           "conditions":[
             
           ],
-          "height":1,
+          "height":0,
           "affixDirection":false,
           "trigger":1,
           "animationType":0,
@@ -863,16 +913,16 @@
       ]
     },
     {
-      "id":23,
-      "name":"Event00002",
-      "x":17.5,
-      "y":12.5,
+      "id":8,
+      "name":"Event00008",
+      "x":16.5,
+      "y":11.5,
       "states":[
         {
           "conditions":[
             
           ],
-          "height":1,
+          "height":0,
           "affixDirection":false,
           "trigger":1,
           "animationType":0,
@@ -881,13 +931,8 @@
             {
               "jsonClass":"ShowText",
               "lines":[
-                "A mamãe não me deixa brincar com meus amigos antes de terminar as aulas de musica."
+                "Sempre me esqueço de molhar as plantas."
               ],
-              "customFace":{
-                "faceset":"sys/mackie/face_m01a_1.png",
-                "faceX":1,
-                "faceY":0
-              },
               "useCharacterFace":true,
               "characterId":0
             }
@@ -900,16 +945,16 @@
       ]
     },
     {
-      "id":8,
+      "id":36,
       "name":"Event00008",
-      "x":16.5,
-      "y":11.5,
+      "x":24.5,
+      "y":8.5,
       "states":[
         {
           "conditions":[
             
           ],
-          "height":1,
+          "height":0,
           "affixDirection":false,
           "trigger":1,
           "animationType":0,
@@ -941,7 +986,7 @@
           "conditions":[
             
           ],
-          "height":1,
+          "height":0,
           "affixDirection":false,
           "trigger":1,
           "animationType":0,
@@ -973,7 +1018,7 @@
           "conditions":[
             
           ],
-          "height":1,
+          "height":0,
           "affixDirection":false,
           "trigger":1,
           "animationType":0,
@@ -1005,7 +1050,7 @@
           "conditions":[
             
           ],
-          "height":1,
+          "height":0,
           "affixDirection":false,
           "trigger":1,
           "animationType":0,
@@ -1037,7 +1082,7 @@
           "conditions":[
             
           ],
-          "height":1,
+          "height":0,
           "affixDirection":false,
           "trigger":1,
           "animationType":0,
