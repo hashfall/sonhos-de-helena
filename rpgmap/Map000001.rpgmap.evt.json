@@ -65,6 +65,38 @@
       ]
     },
     {
+      "id":37,
+      "name":"Event00012",
+      "x":22.5,
+      "y":13.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Odeio esse sofá sujo e velho."
+              ],
+              "useCharacterFace":true,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
       "id":25,
       "name":"Event00025",
       "x":25.5,
@@ -84,38 +116,6 @@
               "jsonClass":"ShowText",
               "lines":[
                 "Preciso guardar estes cobertores..."
-              ],
-              "useCharacterFace":true,
-              "characterId":0
-            }
-          ]
-        }
-      ],
-      "eventClassId":-1,
-      "params":[
-        
-      ]
-    },
-    {
-      "id":14,
-      "name":"Event00014",
-      "x":22.5,
-      "y":13.5,
-      "states":[
-        {
-          "conditions":[
-            
-          ],
-          "height":0,
-          "affixDirection":false,
-          "trigger":1,
-          "animationType":0,
-          "runOnceThenIncrementState":false,
-          "cmds":[
-            {
-              "jsonClass":"ShowText",
-              "lines":[
-                "Odeio esse sofá sujo e velho."
               ],
               "useCharacterFace":true,
               "characterId":0

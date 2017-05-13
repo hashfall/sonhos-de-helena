@@ -187,8 +187,8 @@
               "lines":[
                 "Garota irritante! Não terminou sua lição? Você apodrecerá aqui!"
               ],
-              "useCharacterFace":false,
-              "characterId":0
+              "useCharacterFace":true,
+              "characterId":1
             },
             {
               "jsonClass":"GetChoice",
@@ -849,8 +849,8 @@
               "lines":[
                 "Garota irritante! Não terminou sua lição? Você apodrecerá aqui!"
               ],
-              "useCharacterFace":false,
-              "characterId":0
+              "useCharacterFace":true,
+              "characterId":1
             },
             {
               "jsonClass":"GetChoice",
@@ -1074,8 +1074,8 @@
               "lines":[
                 "Garota irritante! Não terminou sua lição? Você apodrecerá aqui!"
               ],
-              "useCharacterFace":false,
-              "characterId":0
+              "useCharacterFace":true,
+              "characterId":1
             },
             {
               "jsonClass":"GetChoice",
@@ -1132,8 +1132,8 @@
               "lines":[
                 "Garota irritante! Não terminou sua lição? Você apodrecerá aqui!"
               ],
-              "useCharacterFace":false,
-              "characterId":0
+              "useCharacterFace":true,
+              "characterId":1
             },
             {
               "jsonClass":"GetChoice",
@@ -1494,8 +1494,8 @@
               "lines":[
                 "Garota irritante! Não terminou sua lição? Você apodrecerá aqui!"
               ],
-              "useCharacterFace":false,
-              "characterId":0
+              "useCharacterFace":true,
+              "characterId":1
             },
             {
               "jsonClass":"GetChoice",
