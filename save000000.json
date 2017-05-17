@@ -1,49 +1,68 @@
 {
   "intMap":{
+    "planta_usada":1,
+    "interior":1,
     "menuEnabled":1,
-    "useTransition":-1,
+    "porta_lab_aberta":1,
     "eventsEnabled":1,
-    "interior":0
+    "useTransition":-1
   },
   "stringMap":{
     
   },
   "intArrayMap":{
     "characterLevels":[
+      1,
       1
     ],
     "characterHps":[
+      50,
       50
     ],
+    "inventoryQtys":[
+      
+    ],
     "characterRow":[
+      0,
       0
     ],
     "party":[
       0
     ],
     "characterMps":[
+      20,
       20
     ],
+    "inventoryIdxs":[
+      
+    ],
     "characterExps":[
+      0,
       0
     ]
   },
   "stringArrayMap":{
     "characterNames":[
-      "Helena"
+      "Helena",
+      "Spider"
     ]
   },
   "mapLocMap":{
     "playerLoc":{
-      "map":"Map000003.rpgmap",
-      "x":4.6302567,
-      "y":24.584574
+      "map":"Map000004.rpgmap",
+      "x":7.5,
+      "y":16.768625
     }
   },
   "eventStates":[
     {
       "mapName":"Map000001.rpgmap",
       "eventId":31,
+      "eventState":1
+    },
+    {
+      "mapName":"Map000003.rpgmap",
+      "eventId":22,
       "eventState":1
     }
   ]

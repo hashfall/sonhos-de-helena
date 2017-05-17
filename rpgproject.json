@@ -2,19 +2,19 @@
   "uuid":"6724a63d-7629-4ffb-804d-e5bdd7288c9c",
   "title":"Sonhos de Helena",
   "recentMapName":"",
-  "lastCreatedMapId":5,
+  "lastCreatedMapId":10,
   "startup":{
     "startingLoc":{
-      "map":"Map000001.rpgmap",
-      "x":18.5,
-      "y":15.5
+      "map":"Map000009.rpgmap",
+      "x":27.5,
+      "y":11.5
     },
     "startingParty":[
       0
     ],
     "titlePic":"sys/LordSpirit.jpg",
     "titleMusic":{
-      "sound":"sys/sean_m_stephens/TitleMoon.mid",
+      "sound":"inicio.mp3",
       "volume":1.0,
       "pitch":1.0
     },
@@ -24,9 +24,9 @@
       "volume":1.0,
       "pitch":1.0
     },
-    "screenW":640,
-    "screenH":480,
-    "fullscreen":false,
+    "screenW":800,
+    "screenH":600,
+    "fullscreen":true,
     "windowIcon":"sys/icon.png",
     "windowskin":"sys/LastPhantasmScanlines.png",
     "msgfont":"sys/VeraMono.ttf",

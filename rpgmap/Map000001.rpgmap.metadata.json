@@ -142,13 +142,13 @@
   ],
   "interior":true,
   "music":{
-    "sound":"bedroom.mp3",
+    "sound":"quarto.mp3",
     "volume":1.0,
     "pitch":1.0
   },
   "battleBackground":"sys/Xin/Strangedesert.jpg",
   "battleMusic":{
-    "sound":"sys/sean_m_stephens/Battle1.mid",
+    "sound":"Quarto.mp3",
     "volume":1.0,
     "pitch":1.0
   },

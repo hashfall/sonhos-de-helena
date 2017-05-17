@@ -1,5 +1,5 @@
 {
-  "parent":"",
+  "parent":"Map000002.rpgmap",
   "title":"Laboratório",
   "xSize":50,
   "ySize":50,
@@ -143,14 +143,19 @@
     "sys/Refmap-A4-5-7.png"
   ],
   "interior":false,
+  "music":{
+    "sound":"laboratorio.mp3",
+    "volume":1.0,
+    "pitch":1.0
+  },
   "battleBackground":"sys/Etolier/01sougen.jpg",
   "battleMusic":{
-    "sound":"sys/sean_m_stephens/Battle1.mid",
+    "sound":"Laboratório.mp3",
     "volume":1.0,
     "pitch":1.0
   },
   "editorCenterX":16.671875,
-  "editorCenterY":22.140625,
+  "editorCenterY":20.828125,
   "lastGeneratedEventId":38,
   "randomEncounterSettings":{
     "stepsAverage":20,

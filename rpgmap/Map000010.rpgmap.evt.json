@@ -1,0 +1,68 @@
+{
+  "events":[
+    {
+      "id":1,
+      "name":"Event00001",
+      "x":9.5,
+      "y":19.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":2,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Algo está bloquendo a porta."
+              ],
+              "useCharacterFace":true,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":2,
+      "name":"Event00001",
+      "x":10.5,
+      "y":19.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":2,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Algo está bloquendo a porta."
+              ],
+              "useCharacterFace":true,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    }
+  ]
+}

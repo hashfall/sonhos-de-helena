@@ -1,6 +1,6 @@
 {
-  "parent":"",
-  "title":"Parque",
+  "parent":"Map000007.rpgmap",
+  "title":"Castelo",
   "xSize":40,
   "ySize":40,
   "tilesets":[
@@ -141,15 +141,20 @@
     "sys/Refmap-A4-5-7.png"
   ],
   "interior":false,
-  "battleBackground":"sys/Etolier/01sougen.jpg",
-  "battleMusic":{
-    "sound":"sys/sean_m_stephens/Battle1.mid",
+  "music":{
+    "sound":"castelo.mp3",
     "volume":1.0,
     "pitch":1.0
   },
-  "editorCenterX":16.671875,
-  "editorCenterY":10.328125,
-  "lastGeneratedEventId":0,
+  "battleBackground":"sys/Etolier/01sougen.jpg",
+  "battleMusic":{
+    "sound":"castelo opção1.mp3",
+    "volume":1.0,
+    "pitch":1.0
+  },
+  "editorCenterX":23.328125,
+  "editorCenterY":22.234375,
+  "lastGeneratedEventId":51,
   "randomEncounterSettings":{
     "stepsAverage":20,
     "encounters":[

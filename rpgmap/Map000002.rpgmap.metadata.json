@@ -1,6 +1,6 @@
 {
   "parent":"",
-  "title":"Corredor Lab",
+  "title":"Corredor Lab.",
   "xSize":60,
   "ySize":20,
   "tilesets":[
@@ -138,9 +138,14 @@
     "sys/Refmap-A4-5-7.png"
   ],
   "interior":true,
+  "music":{
+    "sound":"corredor.mp3",
+    "volume":1.0,
+    "pitch":1.0
+  },
   "battleBackground":"sys/Etolier/01sougen.jpg",
   "battleMusic":{
-    "sound":"sys/sean_m_stephens/Battle1.mid",
+    "sound":"Corredor.mp3",
     "volume":1.0,
     "pitch":1.0
   },
