@@ -1050,7 +1050,7 @@
                         {
                           "jsonClass":"ShowText",
                           "lines":[
-                            "O senhor feudal passou seus dias de tirania escondido no escuro, cercado por altas paredes de pedra, erguidas com o suor e dinheiro de seus vassalos. Assim como os padres que era a lei na região."
+                            "O senhor feudal passou seus dias de tirania escondido no escuro, cercado por altas paredes de pedra, erguidas com o suor e dinheiro de seus vassalos. Assim como os padres, que eram a lei na região."
                           ],
                           "useCharacterFace":false,
                           "characterId":0
@@ -1058,7 +1058,7 @@
                         {
                           "jsonClass":"GetChoice",
                           "question":[
-                            "O senhor feudal residia?"
+                            "O senhor feudal residia:"
                           ],
                           "choices":[
                             "No castelo.",
@@ -1080,7 +1080,7 @@
                               {
                                 "jsonClass":"ShowText",
                                 "lines":[
-                                  "O rei tinha um cavaleiro de muita estima. Ele perseguiu e executou muitos hereges em nome do rei e da igreja. Seu legado ficou na histório, mas assim como todos os homens, no fim, encontrou-se comigo. Restando somente um poema para contar sua história."
+                                  "O rei tinha um cavaleiro de muita estima. Ele perseguiu e executou muitos hereges em nome do rei e da igreja. Mas assim como todos os homens, no fim, encontrou-se comigo. Restando somente um poema para contar sua história."
                                 ],
                                 "useCharacterFace":false,
                                 "characterId":0
@@ -1141,6 +1141,25 @@
                                           {
                                             "jsonClass":"ShowText",
                                             "lines":[
+                                              "...Vá embora."
+                                            ],
+                                            "useCharacterFace":false,
+                                            "characterId":0
+                                          },
+                                          {
+                                            "jsonClass":"Teleport",
+                                            "loc":{
+                                              "map":"Map000010.rpgmap",
+                                              "x":9.5,
+                                              "y":17.5
+                                            },
+                                            "transitionId":1
+                                          }
+                                        ],
+                                        [
+                                          {
+                                            "jsonClass":"ShowText",
+                                            "lines":[
                                               "Hahahaha! Você não prestou atenção na história!"
                                             ],
                                             "useCharacterFace":false,
@@ -1152,25 +1171,6 @@
                                               "map":"Map000009.rpgmap",
                                               "x":36.5,
                                               "y":4.5
-                                            },
-                                            "transitionId":1
-                                          }
-                                        ],
-                                        [
-                                          {
-                                            "jsonClass":"ShowText",
-                                            "lines":[
-                                              "... vá embora."
-                                            ],
-                                            "useCharacterFace":false,
-                                            "characterId":0
-                                          },
-                                          {
-                                            "jsonClass":"Teleport",
-                                            "loc":{
-                                              "map":"Map000010.rpgmap",
-                                              "x":9.5,
-                                              "y":17.5
                                             },
                                             "transitionId":1
                                           }

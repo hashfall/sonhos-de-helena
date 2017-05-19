@@ -1,6 +1,6 @@
 {
-  "parent":"Map000007.rpgmap",
-  "title":"Caverna",
+  "parent":"",
+  "title":"Quarto Dia",
   "xSize":40,
   "ySize":30,
   "tilesets":[
@@ -140,16 +140,21 @@
     "sys/Refmap-A4-5-6.png",
     "sys/Refmap-A4-5-7.png"
   ],
-  "interior":false,
-  "battleBackground":"sys/Etolier/01sougen.jpg",
-  "battleMusic":{
-    "sound":"sys/sean_m_stephens/Battle1.mid",
+  "interior":true,
+  "music":{
+    "sound":"quarto.mp3",
     "volume":1.0,
     "pitch":1.0
   },
-  "editorCenterX":23.328125,
-  "editorCenterY":18.921875,
-  "lastGeneratedEventId":25,
+  "battleBackground":"sys/Xin/Strangedesert.jpg",
+  "battleMusic":{
+    "sound":"Quarto.mp3",
+    "volume":1.0,
+    "pitch":1.0
+  },
+  "editorCenterX":16.671875,
+  "editorCenterY":14.546875,
+  "lastGeneratedEventId":40,
   "randomEncounterSettings":{
     "stepsAverage":20,
     "encounters":[

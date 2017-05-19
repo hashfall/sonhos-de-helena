@@ -1,14 +1,15 @@
 {
-  "parent":"Map000007.rpgmap",
-  "title":"Caverna",
-  "xSize":40,
-  "ySize":30,
+  "parent":"Map000011.rpgmap",
+  "title":"Final",
+  "xSize":20,
+  "ySize":20,
   "tilesets":[
     "sys/Refmap-TileA5.png",
     "sys/Refmap-TileB.png",
     "sys/Refmap-TileC.png",
     "sys/Refmap-TileD.png",
-    "sys/Refmap-TileE.png"
+    "sys/Refmap-TileE.png",
+    "C0.png"
   ],
   "autotiles":[
     "sys/Refmap-A1-0-0-A.png",
@@ -140,16 +141,16 @@
     "sys/Refmap-A4-5-6.png",
     "sys/Refmap-A4-5-7.png"
   ],
-  "interior":false,
+  "interior":true,
   "battleBackground":"sys/Etolier/01sougen.jpg",
   "battleMusic":{
     "sound":"sys/sean_m_stephens/Battle1.mid",
     "volume":1.0,
     "pitch":1.0
   },
-  "editorCenterX":23.328125,
-  "editorCenterY":18.921875,
-  "lastGeneratedEventId":25,
+  "editorCenterX":10.0,
+  "editorCenterY":10.0,
+  "lastGeneratedEventId":21,
   "randomEncounterSettings":{
     "stepsAverage":20,
     "encounters":[

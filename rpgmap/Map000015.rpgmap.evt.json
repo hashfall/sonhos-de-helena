@@ -1,0 +1,1312 @@
+{
+  "events":[
+    {
+      "id":5,
+      "name":"Event00004",
+      "x":4.5,
+      "y":9.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"GetChoice",
+              "question":[
+                "Deseja sentar?"
+              ],
+              "choices":[
+                "Sim",
+                "Não"
+              ],
+              "allowCancel":false,
+              "innerCmds":[
+                [
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Alunos, a aula vai começar!"
+                    ],
+                    "useCharacterFace":false,
+                    "characterId":0
+                  },
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Adoro a aula de história!"
+                    ],
+                    "useCharacterFace":true,
+                    "characterId":0
+                  },
+                  {
+                    "jsonClass":"ExitGame"
+                  }
+                ],
+                [
+                  
+                ],
+                [
+                  
+                ]
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":10,
+      "name":"Event00004",
+      "x":7.5,
+      "y":9.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"GetChoice",
+              "question":[
+                "Deseja sentar?"
+              ],
+              "choices":[
+                "Sim",
+                "Não"
+              ],
+              "allowCancel":false,
+              "innerCmds":[
+                [
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Alunos, a aula vai começar!"
+                    ],
+                    "useCharacterFace":false,
+                    "characterId":0
+                  },
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Adoro a aula de história!"
+                    ],
+                    "useCharacterFace":true,
+                    "characterId":0
+                  },
+                  {
+                    "jsonClass":"ExitGame"
+                  }
+                ],
+                [
+                  
+                ],
+                [
+                  
+                ]
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":14,
+      "name":"Event00004",
+      "x":15.5,
+      "y":12.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"GetChoice",
+              "question":[
+                "Deseja sentar?"
+              ],
+              "choices":[
+                "Sim",
+                "Não"
+              ],
+              "allowCancel":false,
+              "innerCmds":[
+                [
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Alunos, a aula vai começar!"
+                    ],
+                    "useCharacterFace":false,
+                    "characterId":0
+                  },
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Adoro a aula de história!"
+                    ],
+                    "useCharacterFace":true,
+                    "characterId":0
+                  },
+                  {
+                    "jsonClass":"ExitGame"
+                  }
+                ],
+                [
+                  
+                ],
+                [
+                  
+                ]
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":20,
+      "name":"Event00004",
+      "x":15.5,
+      "y":15.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"GetChoice",
+              "question":[
+                "Deseja sentar?"
+              ],
+              "choices":[
+                "Sim",
+                "Não"
+              ],
+              "allowCancel":false,
+              "innerCmds":[
+                [
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Alunos, a aula vai começar!"
+                    ],
+                    "useCharacterFace":false,
+                    "characterId":0
+                  },
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Adoro a aula de história!"
+                    ],
+                    "useCharacterFace":true,
+                    "characterId":0
+                  },
+                  {
+                    "jsonClass":"ExitGame"
+                  }
+                ],
+                [
+                  
+                ],
+                [
+                  
+                ]
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":1,
+      "name":"Event00001",
+      "x":9.5,
+      "y":19.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":2,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"Teleport",
+              "loc":{
+                "map":"Map000012.rpgmap",
+                "x":28.5,
+                "y":6.5
+              },
+              "transitionId":1
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":6,
+      "name":"Event00004",
+      "x":1.5,
+      "y":12.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"GetChoice",
+              "question":[
+                "Deseja sentar?"
+              ],
+              "choices":[
+                "Sim",
+                "Não"
+              ],
+              "allowCancel":false,
+              "innerCmds":[
+                [
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Alunos, a aula vai começar!"
+                    ],
+                    "useCharacterFace":false,
+                    "characterId":0
+                  },
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Adoro a aula de história!"
+                    ],
+                    "useCharacterFace":true,
+                    "characterId":0
+                  },
+                  {
+                    "jsonClass":"ExitGame"
+                  }
+                ],
+                [
+                  
+                ],
+                [
+                  
+                ]
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":21,
+      "name":"Event00004",
+      "x":18.5,
+      "y":12.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"GetChoice",
+              "question":[
+                "Deseja sentar?"
+              ],
+              "choices":[
+                "Sim",
+                "Não"
+              ],
+              "allowCancel":false,
+              "innerCmds":[
+                [
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Alunos, a aula vai começar!"
+                    ],
+                    "useCharacterFace":false,
+                    "characterId":0
+                  },
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Adoro a aula de história!"
+                    ],
+                    "useCharacterFace":true,
+                    "characterId":0
+                  },
+                  {
+                    "jsonClass":"ExitGame"
+                  }
+                ],
+                [
+                  
+                ],
+                [
+                  
+                ]
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":9,
+      "name":"Event00004",
+      "x":4.5,
+      "y":15.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"GetChoice",
+              "question":[
+                "Deseja sentar?"
+              ],
+              "choices":[
+                "Sim",
+                "Não"
+              ],
+              "allowCancel":false,
+              "innerCmds":[
+                [
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Alunos, a aula vai começar!"
+                    ],
+                    "useCharacterFace":false,
+                    "characterId":0
+                  },
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Adoro a aula de história!"
+                    ],
+                    "useCharacterFace":true,
+                    "characterId":0
+                  },
+                  {
+                    "jsonClass":"ExitGame"
+                  }
+                ],
+                [
+                  
+                ],
+                [
+                  
+                ]
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":13,
+      "name":"Event00004",
+      "x":12.5,
+      "y":9.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"GetChoice",
+              "question":[
+                "Deseja sentar?"
+              ],
+              "choices":[
+                "Sim",
+                "Não"
+              ],
+              "allowCancel":false,
+              "innerCmds":[
+                [
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Alunos, a aula vai começar!"
+                    ],
+                    "useCharacterFace":false,
+                    "characterId":0
+                  },
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Adoro a aula de história!"
+                    ],
+                    "useCharacterFace":true,
+                    "characterId":0
+                  },
+                  {
+                    "jsonClass":"ExitGame"
+                  }
+                ],
+                [
+                  
+                ],
+                [
+                  
+                ]
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":2,
+      "name":"Event00001",
+      "x":10.5,
+      "y":19.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":1,
+          "affixDirection":false,
+          "trigger":2,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"Teleport",
+              "loc":{
+                "map":"Map000012.rpgmap",
+                "x":28.5,
+                "y":6.5
+              },
+              "transitionId":1
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":17,
+      "name":"Event00004",
+      "x":12.5,
+      "y":15.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"GetChoice",
+              "question":[
+                "Deseja sentar?"
+              ],
+              "choices":[
+                "Sim",
+                "Não"
+              ],
+              "allowCancel":false,
+              "innerCmds":[
+                [
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Alunos, a aula vai começar!"
+                    ],
+                    "useCharacterFace":false,
+                    "characterId":0
+                  },
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Adoro a aula de história!"
+                    ],
+                    "useCharacterFace":true,
+                    "characterId":0
+                  },
+                  {
+                    "jsonClass":"ExitGame"
+                  }
+                ],
+                [
+                  
+                ],
+                [
+                  
+                ]
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":12,
+      "name":"Event00004",
+      "x":7.5,
+      "y":15.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"GetChoice",
+              "question":[
+                "Deseja sentar?"
+              ],
+              "choices":[
+                "Sim",
+                "Não"
+              ],
+              "allowCancel":false,
+              "innerCmds":[
+                [
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Alunos, a aula vai começar!"
+                    ],
+                    "useCharacterFace":false,
+                    "characterId":0
+                  },
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Adoro a aula de história!"
+                    ],
+                    "useCharacterFace":true,
+                    "characterId":0
+                  },
+                  {
+                    "jsonClass":"ExitGame"
+                  }
+                ],
+                [
+                  
+                ],
+                [
+                  
+                ]
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":7,
+      "name":"Event00004",
+      "x":1.5,
+      "y":15.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"GetChoice",
+              "question":[
+                "Deseja sentar?"
+              ],
+              "choices":[
+                "Sim",
+                "Não"
+              ],
+              "allowCancel":false,
+              "innerCmds":[
+                [
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Alunos, a aula vai começar!"
+                    ],
+                    "useCharacterFace":false,
+                    "characterId":0
+                  },
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Adoro a aula de história!"
+                    ],
+                    "useCharacterFace":true,
+                    "characterId":0
+                  },
+                  {
+                    "jsonClass":"ExitGame"
+                  }
+                ],
+                [
+                  
+                ],
+                [
+                  
+                ]
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":3,
+      "name":"Event00003",
+      "x":11.5,
+      "y":4.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "sprite":{
+            "name":"sys/vx_chara03_f.png",
+            "spriteIndex":0,
+            "dir":0,
+            "step":1
+          },
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Olá Helena! Você parece mais animada hoje."
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Tive sonhos estranhos com a escola. Acho que aprendi algo com eles."
+              ],
+              "useCharacterFace":true,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Renovaram seu interesse em algum assunto? Hahaha, escolha um lugar para se sentar."
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":18,
+      "name":"Event00004",
+      "x":12.5,
+      "y":12.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"GetChoice",
+              "question":[
+                "Deseja sentar?"
+              ],
+              "choices":[
+                "Sim",
+                "Não"
+              ],
+              "allowCancel":false,
+              "innerCmds":[
+                [
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Alunos, a aula vai começar!"
+                    ],
+                    "useCharacterFace":false,
+                    "characterId":0
+                  },
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Adoro a aula de história!"
+                    ],
+                    "useCharacterFace":true,
+                    "characterId":0
+                  },
+                  {
+                    "jsonClass":"ExitGame"
+                  }
+                ],
+                [
+                  
+                ],
+                [
+                  
+                ]
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":16,
+      "name":"Event00004",
+      "x":18.5,
+      "y":9.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"GetChoice",
+              "question":[
+                "Deseja sentar?"
+              ],
+              "choices":[
+                "Sim",
+                "Não"
+              ],
+              "allowCancel":false,
+              "innerCmds":[
+                [
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Alunos, a aula vai começar!"
+                    ],
+                    "useCharacterFace":false,
+                    "characterId":0
+                  },
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Adoro a aula de história!"
+                    ],
+                    "useCharacterFace":true,
+                    "characterId":0
+                  },
+                  {
+                    "jsonClass":"ExitGame"
+                  }
+                ],
+                [
+                  
+                ],
+                [
+                  
+                ]
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":11,
+      "name":"Event00004",
+      "x":7.5,
+      "y":12.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"GetChoice",
+              "question":[
+                "Deseja sentar?"
+              ],
+              "choices":[
+                "Sim",
+                "Não"
+              ],
+              "allowCancel":false,
+              "innerCmds":[
+                [
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Alunos, a aula vai começar!"
+                    ],
+                    "useCharacterFace":false,
+                    "characterId":0
+                  },
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Adoro a aula de história!"
+                    ],
+                    "useCharacterFace":true,
+                    "characterId":0
+                  },
+                  {
+                    "jsonClass":"ExitGame"
+                  }
+                ],
+                [
+                  
+                ],
+                [
+                  
+                ]
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":8,
+      "name":"Event00004",
+      "x":4.5,
+      "y":12.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"GetChoice",
+              "question":[
+                "Deseja sentar?"
+              ],
+              "choices":[
+                "Sim",
+                "Não"
+              ],
+              "allowCancel":false,
+              "innerCmds":[
+                [
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Alunos, a aula vai começar!"
+                    ],
+                    "useCharacterFace":false,
+                    "characterId":0
+                  },
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Adoro a aula de história!"
+                    ],
+                    "useCharacterFace":true,
+                    "characterId":0
+                  },
+                  {
+                    "jsonClass":"ExitGame"
+                  }
+                ],
+                [
+                  
+                ],
+                [
+                  
+                ]
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":19,
+      "name":"Event00004",
+      "x":15.5,
+      "y":9.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"GetChoice",
+              "question":[
+                "Deseja sentar?"
+              ],
+              "choices":[
+                "Sim",
+                "Não"
+              ],
+              "allowCancel":false,
+              "innerCmds":[
+                [
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Alunos, a aula vai começar!"
+                    ],
+                    "useCharacterFace":false,
+                    "characterId":0
+                  },
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Adoro a aula de história!"
+                    ],
+                    "useCharacterFace":true,
+                    "characterId":0
+                  },
+                  {
+                    "jsonClass":"ExitGame"
+                  }
+                ],
+                [
+                  
+                ],
+                [
+                  
+                ]
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":4,
+      "name":"Event00004",
+      "x":1.5,
+      "y":9.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"GetChoice",
+              "question":[
+                "Deseja sentar?"
+              ],
+              "choices":[
+                "Sim",
+                "Não"
+              ],
+              "allowCancel":false,
+              "innerCmds":[
+                [
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Alunos, a aula vai começar!"
+                    ],
+                    "useCharacterFace":false,
+                    "characterId":0
+                  },
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Adoro a aula de história!"
+                    ],
+                    "useCharacterFace":true,
+                    "characterId":0
+                  },
+                  {
+                    "jsonClass":"ExitGame"
+                  }
+                ],
+                [
+                  
+                ],
+                [
+                  
+                ]
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":15,
+      "name":"Event00004",
+      "x":18.5,
+      "y":15.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"GetChoice",
+              "question":[
+                "Deseja sentar?"
+              ],
+              "choices":[
+                "Sim",
+                "Não"
+              ],
+              "allowCancel":false,
+              "innerCmds":[
+                [
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Alunos, a aula vai começar!"
+                    ],
+                    "useCharacterFace":false,
+                    "characterId":0
+                  },
+                  {
+                    "jsonClass":"ShowText",
+                    "lines":[
+                      "Adoro a aula de história!"
+                    ],
+                    "useCharacterFace":true,
+                    "characterId":0
+                  },
+                  {
+                    "jsonClass":"ExitGame"
+                  }
+                ],
+                [
+                  
+                ],
+                [
+                  
+                ]
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    }
+  ]
+}
