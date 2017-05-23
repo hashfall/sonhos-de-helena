@@ -5,14 +5,14 @@
   "lastCreatedMapId":15,
   "startup":{
     "startingLoc":{
-      "map":"Map000008.rpgmap",
-      "x":30.5,
-      "y":25.5
+      "map":"Map000001.rpgmap",
+      "x":18.5,
+      "y":15.5
     },
     "startingParty":[
       0
     ],
-    "titlePic":"sys/LordSpirit.jpg",
+    "titlePic":"capa2.jpg",
     "titleMusic":{
       "sound":"inicio.mp3",
       "volume":1.0,
